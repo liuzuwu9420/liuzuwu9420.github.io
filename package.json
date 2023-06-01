@@ -1,20 +1,17 @@
 {
-  "name": "@wocwin/t-ui-plus",
-  "version": "1.1.2",
+  "name": "liuzuwu9420",
+  "version": "1.0.0",
   "description": "Vue3 中基于Element-plus二次封装基础组件文档",
-  "author": "wocwin",
+  "author": "liuzuwu9420",
   "license": "ISC",
   "private": false,
-  "main": "lib/t-ui-plus.umd.cjs",
-  "module": "lib/t-ui-plus.umd.cjs",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "serve": "vite --mode dev",
-    "build:dev": "vue-tsc --noEmit && vite build --mode dev",
-    "lib": "vite build",
-    "deploy": "deploy.sh",
     "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs"
+    "docs:build": "vitepress build docs",
+    "docs:pages": "vitepress build docs && deploy.sh",
+    "deploy": "deploy.sh"
   },
   "devDependencies": {
     "@element-plus/icons-vue": "^2.0.10",
@@ -26,7 +23,6 @@
     "@vitejs/plugin-vue": "^3.1.0",
     "@vitejs/plugin-vue-jsx": "^2.0.1",
     "@vueuse/core": "^9.13.0",
-    "axios": "^1.1.2",
     "chalk": "^5.2.0",
     "consola": "^3.1.0",
     "element-plus": "^2.2.18",
@@ -54,18 +50,18 @@
     "vite": "^3.1.0",
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-dts": "^1.7.3",
-    "vitepress": "1.0.0-alpha.75",
     "vite-plugin-vue-setup-extend": "^0.4.0",
-    "vue": "3.2.44",
+    "vitepress": "1.0.0-alpha.75",
+    "vue": "^3.3.0",
     "vue-router": "^4.1.5",
     "vue-tsc": "^0.40.4",
     "vuedraggable": "^4.1.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wocwin/t-ui-plus.git"
+    "url": "https://github.com/liuzuwu9420/liuzuwu9420.github.io.git"
   },
-  "homepage": "https://wocwin.github.io/t-ui-plus/",
+  "homepage": "https://liuzuwu9420.github.io/",
   "keywords": [
     "element-ui",
     "element-plus",
@@ -74,8 +70,6 @@
     "vitepress",
     "vue",
     "vue3",
-    "t-ui",
-    "t-ui-plus",
     "vitepress-theme-demoblock",
     "二次封装组件",
     "封装组件",

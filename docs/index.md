@@ -1,21 +1,21 @@
 ---
 layout: home
 
-title: T-ui-plus
+title:
 # titleTemplate: 选项卡描述
 editLink: true
 lastUpdated: true
 hero:
-  name: T-ui-plus
+  name:
   text: vue3基础组件
   tagline: Vue3 中基于Element-plus二次封装基础组件文档
   image:
-    src: /img/hero.jpg
-    alt: t-ui-plus
+    src: /img/dog.jpg
+    alt: liuzuwu9420
   actions:
     - theme: brand
-      text: 安装指南
-      link: /components/
+      text: 文档说明
+      link: /guide/
     - theme: brand
       text: 组件预览
       link: /components/TSelect/base.md
@@ -38,13 +38,8 @@ features:
   <a href="https://github.com/vuejs/vue" target="_blank">
     <img src="https://img.shields.io/badge/vue-3.2.36-brightgreen.svg" alt="vue3">
   </a>
-  <a href="https://gitee.com/wocwin/t-ui-plus/stargazers" target="_blank">
-    <img src="https://gitee.com/wocwin/t-ui-plus/badge/star.svg?theme=dark" alt="t-ui-plus">
+  &nbsp;
+  <a href="https://github.com/liuzuwu9420/liuzuwu9420.github.io/stargazers" target="_blank">
+    <img src="https://img.shields.io/github/stars/liuzuwu9420/liuzuwu9420.github.io.svg" alt="liuzuwu9420">
   </a>
-  <a href="https://github.com/wocwin/t-ui-plus/stargazers" target="_blank">
-    <img src="https://img.shields.io/github/stars/wocwin/t-ui-plus.svg" alt="t-ui-plus">
-  </a>
-   <a href="https://www.npmjs.com/package/@wocwin/t-ui-plus" target="_blank">
-      <img alt="npm" src="https://img.shields.io/npm/v/@wocwin/t-ui-plus.svg" />
-    </a>
 </p>
